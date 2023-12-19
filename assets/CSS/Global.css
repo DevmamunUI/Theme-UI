@@ -1,0 +1,86 @@
+/* === Cumstom Font Import === */
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/Fonts/Poppins/Poppins-Black.ttf0");
+}
+
+/* ====== Root CSS Browser Over wight ======  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========= Root CSS variables  ========= */
+
+:root {
+  /* ======= Colors  ======= */
+
+  --primary-color: "";
+  --seconday-color: "";
+  --headingh1-color: "";
+  --headingh2-color: "";
+  --paragraph-color: "";
+  --border-color: "";
+  --button-color: "";
+  --hover-color: "";
+
+  /* ====== Font-size  ====== */
+
+  --h1-size: "46px";
+  --h2-size: "38px";
+  --p-size: "18px";
+}
+
+/*============== dark  mode color ============= */
+:root {
+  --primary-color: "";
+  --seconday-color: "";
+  --headingh1-color: "";
+  --headingh2-color: "";
+  --paragraph-color: "";
+  --border-color: "";
+  --button-color: "";
+  --hover-color: "";
+}
+
+/* =========  media Screen Responsive  ============== */
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* ========  Large screen Font-Size ============== */
+
+  :root {
+    --h1-size: "46px";
+    --h2-size: "38px";
+    --p-size: "18px";
+  }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1200px) {
+  /* ========  Laptop screen Font-Size ============== */
+  :root {
+    --h1-size: "40px";
+    --h2-size: "32px";
+    --p-size: "16px";
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  /* ========  Tablate screen Font-Size ============== */
+  :root {
+    --h1-size: "36px";
+    --h2-size: "28px";
+    --p-size: "15px";
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  /* ========  mobile screen Font-Size ============== */
+  :root {
+    --h1-size: "30px";
+    --h2-size: "24px";
+    --p-size: "14px";
+  }
+}
